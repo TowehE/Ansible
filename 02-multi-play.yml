@@ -22,7 +22,7 @@
   tasks:
   - name: Create Directory
     file: 
-      path:  /home/ec2-user/new_dir_1
+      path: /home/ec2-user/new_dir_1
       state: directory
 
  
