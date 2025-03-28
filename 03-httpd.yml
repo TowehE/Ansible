@@ -7,7 +7,7 @@
     - name: Install HTTPD
       yum:   
         name: httpd 
-        state: preset
+        state: present
 
     - name: start Httpd
       service: 
