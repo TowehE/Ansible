@@ -1,5 +1,5 @@
 - name: Install Apache
-  hosts: node1
+  hosts: node2
   become: yes
 
   tasks:
