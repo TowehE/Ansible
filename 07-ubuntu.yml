@@ -5,19 +5,17 @@
 
   tasks:
     - name: Install Apache2
-      yum:   
-        name: apache 
+      apt:   
+        name: apache2 
         state: present 
+        update_cache: yes
 
-    - name: start Httpd
+    - name: Start Apache2 
       service: 
         name: apache2
         state: started
 
-    - name: Enabled Httpd
+    - name: Enable Apache2
       service: 
         name: apache2
         enabled: yes
-        
-...
-
