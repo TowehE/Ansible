@@ -1,6 +1,7 @@
 ---
-- name: Install HTTP server
+- name: Install Apache2
   hosts: node1
+  update_cache: yes
   become: yes
 
   tasks:
