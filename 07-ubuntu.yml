@@ -1,4 +1,4 @@
-- name: Install HTTP server
+- name: Install Apache
   hosts: node1
   become: yes
 
