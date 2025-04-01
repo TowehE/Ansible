@@ -1,6 +1,6 @@
 ---
 - name: Deploy Angular App
-  hosts: node1
+  hosts: node3
   become: yes
 
   roles:
